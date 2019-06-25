@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+djangorestframework = "*"
+"psycopg2" = "<2.8"
+django = ">=2.2.*"
+envparse = "*"
+dj-database-url = "*"
+djangorestframework-simplejwt = "*"
+
+[dev-packages]
+"flake8" = "*"
+ipython = "*"
+
+[requires]
+python_version = "3.7"
