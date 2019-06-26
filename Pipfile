@@ -10,6 +10,8 @@ django = ">=2.2.*"
 envparse = "*"
 dj-database-url = "*"
 djangorestframework-simplejwt = "*"
+django-cors-headers = "*"
+gunicorn = "*"
 
 [dev-packages]
 "flake8" = "*"
